@@ -1,0 +1,21 @@
+{
+  "name": "overflow-bot",
+  "version": "1.0.0",
+  "description": "A telegram bot performing search from Stack Overflow.",
+  "main": "dist/index.js",
+  "repository": "https://github.com/kiwiyou/OverflowBot",
+  "author": "kiwiyou <kiwiyou.dev@gmail.com>",
+  "license": "AGPL-3.0-or-later",
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint -c tslint.json ./src/**/*.ts",
+    "start": "node ./dist/index.js",
+    "watch": "nodemon"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.2.1"
+  }
+}
